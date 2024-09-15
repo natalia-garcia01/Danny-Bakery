@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color:  #ff9999;
+  }
+  
+  .banner {
+    background-image: url('../Images/Fondo-Bakery.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner h1, .banner p {
+    color: palevioletred;
+  }
+  
+  #menu .carousel-item img {
+    height: 300px;
+  }
+  
+  #chatbot {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #chat-window {
+    height: 200px;
+    overflow-y: scroll;
+    padding: 10px;
+  }
+  
+  #chatInput {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #sendBtn {
+    width: 20%;
+    padding: 10px;
+    background-color: #ff9999;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+  }
+  
